@@ -44,6 +44,26 @@ function NavBar() {
       >
         Login
       </NavLink>
+      <NavLink
+        to="/message"
+        exact
+        style={linkStyles}
+        activeStyle={{
+          background: "darkblue",
+        }}
+      >
+      Message
+      </NavLink>
+      <NavLink
+        to="/signup"
+        exact
+        style={linkStyles}
+        activeStyle={{
+          background: "darkblue",
+        }}
+      >
+        SignUp
+      </NavLink>
     </div>
   );
 }
